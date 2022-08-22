@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bgimg{
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.bgimg.no1{
+  background-image: url("image/box1.jpg");
+}
+
+.bgimg.no2{
+  background-image: url("image/box2.jpg");
+}
+
+.bgimg.no3{
+  background-image: url("image/box3.jpg");
+}
+
+.bgimg.no4{
+  background-image: url("image/box4.jpg");
+}
