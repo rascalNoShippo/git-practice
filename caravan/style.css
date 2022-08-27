@@ -34,7 +34,7 @@ header {
 
 .social i {
   display: inline-block;
-  font-size: 32px;
+  font-size: 24px;
 }
 
 .social i:nth-child(n+2) {
@@ -239,4 +239,63 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+@media screen and (max-width:425px){
+  .social{
+    display: none;
+  }
+
+  .social i{
+
+  }
+
+  .nav-list-item{
+    display: block;
+    margin: 10px;
+  }
+
+  .main-visual-content, main, .blog, .sidebar{
+    width: 100%;
+  }
+
+  main{
+    display: block;
+    padding: 0;
+  }
+
+  .blog, .sidebar{
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .blog-item{
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+
+  .blog-image{
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .blog-text{
+    padding-top: 0;
+  }
+
+  .category{
+    display: none;
+  }
+
+  .sidebar-contents{
+    padding: 0;
+    margin: 20px 30px 50px;
+    justify-content: center;
+  }
+
+  .instagram-box{
+    width: 45%;
+    padding-top: 45%;
 }
